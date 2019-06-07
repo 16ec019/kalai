@@ -1,9 +1,4 @@
-a=int(input())
-b=int(input())
-c=int(input())
-if(a<b):
-  print(b)
-if(b<c):
-  print(c)
-else:
-  print(a)
+a=list(map(int,input().split()))
+a.sort()
+d=max(a)
+print(d)
