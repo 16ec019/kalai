@@ -1,5 +1,5 @@
-a=int(input())
-b=0
-for i in range(1,a+1):
-    b=b+i
-print(b)
+h=int(input())
+s=0
+for i in range(1,h+1):
+    s=s+i
+print(s)
