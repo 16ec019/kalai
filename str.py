@@ -1,2 +1,2 @@
 a=str(input())
-print(rev(a))
+print(a[::-1])
